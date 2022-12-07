@@ -1,0 +1,22 @@
+/* This stylesheet will override the bootstrap */
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #e6f8e4;
+  color: #000000;
+}
